@@ -19,12 +19,6 @@ The script performs the following steps:
 7. Detaches the mounted .dmg file or converted .dmg file.
 8. Cleans up temporary files.
 
-**TO_DO**
-
-In case the downloaded file is in a format other than .dmg, such as .zip, .tar.gz, or .rar, the script should be extended to handle the extraction of the .dmg file from these archives. Once the .dmg file is extracted, the script can continue with the regular conversion process.
-
-Please note that this TO_DO task requires additional development and is not currently implemented in the provided script.
-
 **Software List**
 
 The `software_list.csv` file contains examples of software entries that can be customized to suit your needs. It provides a structure to follow when adding software to the list. The CSV file includes the following columns:
@@ -33,6 +27,12 @@ The `software_list.csv` file contains examples of software entries that can be c
 - **Download URL**: The URL from where the software can be downloaded in .dmg format.
 
 To add new software entries, follow the format of the existing entries in the CSV file, ensuring that each entry has a unique combination of software name and download URL.
+
+---
+
+**TO_DO**
+
+In case the downloaded file is in a format other than .dmg, such as .zip, .tar.gz, or .rar, the script should be extended to handle the extraction of the .dmg file from these archives. Once the .dmg file is extracted, the script can continue with the regular conversion process.
 
 ---
 
