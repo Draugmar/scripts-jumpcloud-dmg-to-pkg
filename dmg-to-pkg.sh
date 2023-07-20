@@ -87,8 +87,6 @@ while [ $retry_count -gt 0 ]; do
 done
 [ $retry_count -eq 0 ] && show_error_message "Failed to download file from $DOWNLOAD_URL."
 
-# Rest of the code...
-
 # Verify the integrity of the .dmg file
 echo "Verifying .dmg file integrity..."
 hdiutil verify "$TMP_FOLDER$SOFTWARE_NAME.dmg" >/dev/null 2>&1
